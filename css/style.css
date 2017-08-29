@@ -1,0 +1,344 @@
+*{ margin:0; padding:0;}
+body{font-family: '微软雅黑','宋体';}
+html,body{ position:relative; height:100%;}
+html,body,h1,h2,h3,h4,h5,h6,div,ol,ul,li,dl,dt,dd,p,textarea,input,select,option,form,tr,th,td,img,em,i,var,strong{margin:0;padding:0;}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{ padding-right: 0; padding-left: 0;}
+input{ outline:none;}
+input,textarea{
+    -webkit-appearance: none;
+}
+input,button,select,textarea{ outline:none;}
+textarea{resize:none;}
+input, button{ height:30px; line-height:30px; -webkit-appearance:none; border-radius:0;}
+input[type="text"],input[type="password"],input[type="button"]{-webkit-appearance:none;appearance:none;outline:none;-webkit-tap-highlight-color:rgba(0,0,0,0);border-radius:0;}
+select{appearance:none; -moz-appearance:none; -webkit-appearance:none; border:solid 1px #ccc;}
+
+a,img{ border:none; text-decoration: none;}
+a:hover,a:focus{text-decoration:none;}
+.mar_t60{ margin-top: 60px;}
+ul,li{ list-style:none;}
+.clear { clear:both; }
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {zoom:1;}
+.fl { float:left; }
+.fr{ float:right;}
+body a,body input{outline:none; blr:expression(this.onFocus=this.blur());}
+.fz12{ font-size: 14px; color:#999; line-height: 20px;}
+.txtCenter{ text-align: center;}
+.txtRight{ text-align:right;}
+.colSky{ color:#19d274;}
+.dis_line{ display:inline-block;}
+.dis_block{ display:block;}
+.pos_rl{ position:relative;}
+.mar_b10{ margin-bottom: 10px;}
+.mar_t10{ margin-top: 10px;}
+.bg_gray{ background:#f0f0f0;}
+.hiden{ display:none;}
+
+/* web tab*/
+/*box-163css*/
+.box-163css{ width:100%; position:relative; height:190px;margin-bottom:0px; float:left;}
+
+header{ padding:0px; margin:0; float:left; width:100%; background:#fff; overflow:hidden;}
+.container.main{ padding:0 10px;}
+.logo{ vertical-align: middle; text-align:left; line-height: 50px; margin-top: 5px; margin-bottom: 5px;}
+.logo a{ display:block;  }
+.logo a img{ width:auto; height:50px;}
+.English{ position:absolute; right:10px; top:5px;}
+.English a{ color:#999;}
+.nav{ overflow: hidden;}
+.nav { overflow:hidden;}
+.nav a{  float:left; width:25%; line-height: 50px; font-size: 15px; color:#666;  display:block; text-align:center;}
+.nav a.active{ color:#00cfe2;}
+
+label{ max-width: 120px;}
+.main{ overflow:hidden; background:#fefcfc;}
+/*搜索条件*/
+.Select_kind { border:solid 1px #eee; border-radius: 6px;box-shadow: 3px 3px #f4f8fb;  margin:20px 10px 10px; float:left; background:#fff; padding:0 0; box-sizing:border-box;}
+.Select_kind li { width:25%; float:left; border-right:solid 1px #eee; padding:5px 0 5px 0; box-sizing: border-box; position:relative;}
+
+.Select_kind li a { display:block; font-size: 13px; color:#999; line-height: 30px;}
+.Select_kind li:last-child { border-right: none;}
+.Select_kind li a.btn_book { width:50px; display:block; color:#fff; font-size:14px; text-align:center; border-radius: 6px; background:#66cdff;  margin:0px auto;}
+
+.Select_kind li input,.Select_kind li .kindBox { padding:0 10px;}
+.Select_kind li input { width:100%; line-height:30px; border:none; background:#fff;color:#666; font-size: 13px;}
+.Select_kind li .kindBox { position:absolute; left:0px; top:40px; z-index:999;  background:#fff; border:solid 1px #eee; width:100%; box-sizing: border-box; padding:10px 10px; display:none;}
+.Select_kind li .kindBox a { padding:0 5px; line-height: 32px;}
+
+
+.Books_img_txt,.comment{ overflow:hidden; margin:10px 0; padding:10px 5px; border-radius: 4px; border:solid 1px #eee;position:relative; background:#fff; padding-bottom: 5px;}
+.more{ position:absolute; right:10px; bottom:3px; display:block; color:#999; text-decoration:underline;}
+.Active_Tit h3{ font-size: 18px; color:#666; line-height: 30px; margin:6px 0; font-weight: 800; height:30px; overflow:hidden;}
+.Book_img img{ width:100%; border:solid 3px #eee; height:auto;}
+.Book_news li a{ line-height: 25px; color:#999; display:block; height:25px;overflow:hidden; }
+.Book_news ul{ margin-left: 5px; overflow:hidden;}
+.All_Books{ overflow:hidden; padding:10px; border:solid 1px #eee; background:#fff; position:relative;}
+.All_Books_tit h3,.book_tit{ font-size: 20px; color:#666; line-height:40px; border-bottom:solid 1px #f3f2f2; padding-left:8px; font-weight: 800; text-align: center; margin-bottom: 10px;}
+
+.All_Books_tit{ position:relative;}
+.All_Book_img{ margin-top: 10px; overflow:hidden;}
+.select_addres{ line-height: 30px; color:#999; font-size: 14px; position:absolute; right:10px; top:0px; display:block; text-decoration: underline; margin-top: 6px;}
+.select_addres:hover{ color:#00cfe2; text-decoration: underline;}
+.adressNews{ display:none; line-height: 35px; margin:10px auto; padding:10px; background:#eee;}
+.adressNews span{ display:block; font-size: 14px; color:#666; margin-bottom: 10px; line-height: 25px;}
+.adressNews span i{ display:block; font-style:normal; font-size: 12px;color:#999;}
+.btnFile{cursor:hand; text-decoration: underline; color:#00cfe2; height:40px; line-height: 40px; width:100%;display:block; position:relative;}
+.file1{
+    cursor:pointer;
+font-size:20px;
+left:0px;
+opacity:0;
+filter:alpha(opacity=0);
+position:absolute;
+left:0px; top:0px;
+}
+#addressCode{ padding-left:8px; border:solid 1px #eee; height:28px; line-height: 28px;}
+.on_txt .btnOff{ padding:2px 10px; border:solid 1px #eee;background:#eee; color:#666;  margin-top: 10px; border-radius: 4px; line-height:25px;}
+.adressbtn{ margin:0 15px; display:inline-block;}
+.All_Book_img li{ width:50%; float:left; padding: 5px 3px 5px 4px; box-sizing: border-box; margin:5px 0; }
+.All_Book_img li a{  display:block; position:relative; width:100%;}
+.All_Book_img li strong{ color:#00cfe2; font-size: 14px; text-align:center; text-decoration: underline; font-weight: normal;}
+.book_count{float:right;display:inline-block;font-size:14px;}
+.All_Book_img li img{ width:100%; border:solid 1px #eee; min-height: 200px; }
+.All_Book_img li span{ display:block; text-align:center; font-size: 14px; color:#999; line-height: 30px; height:30px; overflow:hidden;}
+.All_Books.Active_hot li{ width:33%; padding:5px 2px 5px 8px;}
+.footer{ padding:10px 0px; border-top: solid 3px #eee;}
+.w_img{ text-align: center;}
+.footer p{ margin-bottom: 10px; padding: 20px 20px 0px; line-height: 25px;}
+.w_img img{ width:60%; margin-bottom: 10px;}
+/*漂流书*/
+.book_bg .container{ padding:0px; margin:0 auto; clear:both; background:#fefcfc; }
+.book_bg .footer .container{ background:none;}
+.footer .container{ padding:0 15px; overflow:hidden;}
+.book_bg{ background:#f0f0f0;}
+.books_list{ border:solid 1px #eee; margin-top: 10px; margin-bottom: 20px; background:#fff; border-left:none; clear:both; border-right:none;}
+.pst{position:absolute; width:46px;left:6px;}
+#Book_kind{ overflow: hidden; min-height: 300px;}
+.books_kinds,.hotPiao{ overflow:hidden;}
+.books_list h3,.books_list .books_kinds,.hotPiao h3{ padding:0 5px 5px; width:100%; box-sizing:border-box;}
+.books_kinds{ position:relative; border-bottom:solid 1px #eee;min-height: 104px; }
+.age_icon{ width:40px; font-size:14px; color:#fff; line-height: 20px; position:absolute; top:40%; margin-top:-40px; background:#00cfe2; color:#fff; text-align:center; border-radius: 4px; box-shadow: 3px 3px #999; position:absolute; left:-45px;  padding:5px 0;z-index: 99999;}
+
+.book_four{ /*margin-left: 55px; overflow:hidden;*/ }
+.book_move { border:solid 1px #eee; border-radius: 4px;}
+.book_move,.JF{ margin:10px; padding:10px 10px; background:#fff;}
+.book_move .row,.JF .row{ margin:0;}
+.img_Fl li{margin-bottom:5px; overflow: hidden; position:relative;}
+.img_Fl img{ border:solid 3px #eee; border-radius: 50%; float:left; width:70px;}
+.img_Fl p{padding-left:10px; float:left; min-height: 65px;
+    height: auto !important; height: 65px; }
+.img_Fl p strong { display:block; line-height:30px;}
+.img_Fl p a{ margin-top:5px; display:block;}
+.Important{ line-height: 25px; padding:0 5px 0 10px; overflow:hidden; margin-bottom: 10px;}
+.Important .row{ margin:0;}
+.Important strong{ color:#00cfe2; font-size: 16px; display:inline-block;}
+.Important span{ color:#999; font-size: 14px; display:inline-block;}
+.Important p{ color:#666; margin-top: 5px;}
+.Important p span{ display:block; margin:5px 0px;}
+.Important p span a{ margin-left: 10px; color:#00cfe2;padding:0 10px; border-radius: 4px;}
+.BigBtn,.btnJoin,.btnJoin1{ width:auto; padding:5px 10px; background:#00cfe2; color:#fff; font-size: 13px; line-height: 25px; border-radius: 4px; margin-top: 10px; display:inline-block;}
+.okBtn{ border:solid 1px #eee; background:#00cfe2; color:#fff; line-height: 30px;border-radius: 4px; display:inline-block; padding:0px 10px;}
+.btnJoin1{ cursor:default;}
+.btnJoin1:hover{ color:#fff;}
+.BigBtn:hover,.btnJoin:hover{ background:#07a4b3;}
+.BigBtn:link,.btnJoin:link,.BigBtn:visited,.btnJoin:visited,.BigBtn:hover,.btnJoin:hover,.BigBtn:active,.btnJoin:active{ color:#fff;}
+#driver_more{ padding:10px; margin-bottom: 10px;}
+.book_bg .Books_img_txt { margin:10px;}
+.comment .Active_Tit h3{margin-bottom: 10px; position:relative;}
+.comment .Active_Tit h3 span { position:absolute; left:40%; color:#ccc; font-size: 14px;}
+.comment .Important strong{ font-size: 14px; margin-right: 10px;}
+.comment .Important span { font-size: 12px; color:#999;}
+.book_bg .pos_rl{ padding:0 15px; background:#fff;}
+.comment .Book_img img{border-radius: 50%;}
+.comment .row{ margin:0 0;}
+.comment .Book_img{ margin-bottom: 10px;}
+.Iscroll{ overflow-y:auto; width:100%;}
+textarea{ resize: none; width:100%; margin:0; text-align:left; color:#666; padding:6px 6px 20px; word-wrap:break-word; border:solid 1px #eee; border-radius: 3px; padding-bottom: 35px;}
+textarea:focus{ border:solid 1px #eee;}
+.Iscroll input{ width:auto; height:35px; line-height: 35px; color:#666; border:solid 1px #eee; border-radius:3px; font-size:14px; position:absolute; bottom:10px;right:20px; display:block; padding:0 20px;}
+.Books_img_txt p.addressTxt{ padding:10px; line-height: 35px; margin-bottom: 10px; border-bottom: solid 1px #eee; padding-bottom: 10px;}
+.Books_img_txt span{ display:block;}
+.Books_img_txt p img{ width:300px;}
+.Books_img_txt p input{ margin:10px 0; padding-left:10px;}
+.Books_img_txt p span{ display:block; line-height: 30px;}
+.Books_img_txt .JF p span{ display:inline-block;}
+.comment .MD{ text-align:center; margin:20px 0; }
+.MD .BigBtn{ position:initial; }
+
+.pjBox{ overflow:hidden;  width:100%; padding:10px 0; box-sizing: border-box;  vertical-align: middle; }
+.pjBox span{ font-size: 14px; display:inline-block; vertical-align: middle; color:#999;}
+.pjBox .Start{ height:16px; overflow:hidden; display:inline-block;}
+.pjBox .Start a{ display:inline-block; background:url("../image/star_hollow_hover.png") no-repeat; width:16px; height:16px;}
+.pjBox .Start a:hover,.pjBox .Start a.on{ background:url("../image/star_onmouseover.png") no-repeat;}
+
+.pb_txt{ line-height: 40px; font-size: 16px; color:#666;}
+#l-map{min-width:320px;border:1px solid gray; min-height: 250px;}
+.All_Books_tit { position:relative;}
+.All_Books_tit span{ position:absolute;left:40%; color:#999; margin-left:-70px;}
+.tit_bg{ line-height: 30px; background:#f6f3f3; overflow:hidden; padding-left: 10px;}
+.Adrs p{ line-height: 30px; width:auto; margin:0 auto;}
+.Adrs{ clear: both; margin-top: 20px;}
+.Adrs span{ color:#f00; font-size: 12px; padding-left:8px;}
+.Adrs input{ height:25px; line-height: 25px; color:#999; font-size: 12px; border:solid 1px #eee; min-width: 200px; padding:0 5px;}
+.Adrs input.inputTxt{ border:none; font-size: 14px;}
+.Adrs label{ width:80px; text-align:right; color:#666; font-size: 14px;}
+.Adrss{position:absolute; left:0;top:0;}
+.Adrs strong{ display:inline-block; overflow:hidden; vertical-align:middle; margin-left: 80px;}
+.Adrs select{ width:auto; height:25px; border:solid 1px #eee; padding:0 5px; color:#999; background:#fff;}
+.Adrs .BigBtn{color:#fff; height:35px; height:35px; border-radius: 8px;}
+.BigBtn.HuiBtn{color:#666; background:#eee;}
+.Adrs .Selet{ line-height: 40px; font-size: 12px; color:#999; margin-top: 10px;}
+.btnJoin{ margin-top: 10px; padding: 3px 10px;}
+.Adrs .mar_all{ margin:10px auto;}
+.mar_all strong{ font-size: 18px; color:#333; line-height: 40px; display:block; width:160px; margin:0 auto; text-align: left;}
+.mar_all span{ display:block; color:#666; width:160px; margin:0 auto; text-align: left;}
+.mar_all span b{ font-style: normal; color:#f00;}
+.Adrs .mar_all .BigBtn{ margin-left:0; font-size: 16px; display:block;}
+.mar_l30{ margin-left:30px;}
+.borderRaduis img{ border-radius: 50%; width:auto;}
+.lineGray{ border-bottom: solid 1px #eee;}
+.JF{ border-top: solid 1px #eee; clear:both; overflow:hidden; padding:10px; margin:20px -5px;}
+.JF p{ line-height: 30px; color:#666;}
+.JF p strong,.JF p span{ margin-right: 15px; color:#666;}
+.JF a{ line-height: 30px; display:block; font-size: 14px;}
+.Sky,.All_Book_img li span.Sky{ color:#00cfe2; font-size: 14px;}
+.noneInput input{ width:150px; border:none; background:#fff; height:30px; line-height:30px; }
+.updateBtn{ position:relative; z-index: 99;}
+#loading{ width:100%; height:100%; text-align:center; vertical-align:middle; background:url(../image/loading2.gif) no-repeat center center; display:none; position:fixed; left:0;top:0;}
+#MAP{ display:none;}
+.mapTxt span,.mapTxt strong{ display:block; line-height: 30px; color:#666; padding-left: 10px;margin:20px 0; border-left:solid red 5px; font-size: 16px;}
+.noneInput input.saveBtn,.noneInput input.saveTBtn{ background:#00cfe2; font-size: 14px; color:#fff;width:60px; height:30px; line-height: 30px; text-align:center; display:none; padding:0px; margin-top:5px; border-radius: 6px;}
+.Sex{ display:none; color:#999;}
+.Sex.active{ display:inline-block;}
+.changeAdress{ display:none;}
+.changeAdress select{ width:auto; height:25px; border:solid 1px #eee; padding:0 5px; color:#999; background:#fff;}
+.moreBooks{display:block; text-align:center; margin:10px;}
+#goTopBtn {position: fixed; z-index:999; width:40px; height:40px; bottom:125px;cursor:pointer;display:none; background:url(../image/topIcon.png) no-repeat; background-size:100%; }
+/*热门团票*/
+.hotPiao .hotPiaoList,.allPiaoList{ overflow:hidden; padding:10px; background:#fff;}
+.hotPiaoList{ border-bottom:solid 1px #eee; }
+.allPiaoList{padding-top: 0;}
+.allPiaoList li{ overflow:hidden; clear:both; margin:10px auto; padding:6px; background:#edf9fb; border-radius:4px;}
+.Index .BigBtn{ margin-top: 50px;}
+.Index .Important p span{ margin:0; line-height: 25px;}
+.ActiveFn{overflow:hidden;}
+.ActiveFn h3{ line-height:30px; padding-bottom: 10px;}
+.ActiveFn p{ min-height: 200px; background:#fff; color:#999; padding:15px; font-size: 14px; line-height: 25px;}
+.pageTxt{ line-height: 40px;overflow:hidden; padding:0 13px;}
+.container{ clear:both; padding:0 10px;}
+.listBooks,.VipBookNews{ overflow:hidden; background:#fff; margin:10px; border:solid 1px #eee; border-radius: 4px; padding:10px;}
+.listBooks h3,.VipBookNews h3{ line-height: 25px; color:#666; font-size: 16px; color:#00cfe2;}
+.listBooks li{ width:100%; overflow:hidden; padding:5px 0 10px; box-sizing: border-box; border-bottom: solid 1px #eee; margin-bottom: 15px;}
+.listBooks li img{ width:100px; height:auto; border:solid 2px #eee;}
+.listBooks p{ font-size: 13px; line-height: 25px; color:#999; }
+.listBooks p strong{ color:#333; font-size: 16px; margin-right: 15px;}
+.listBooks li p span{ display:block;}
+a.giveBtn{ width:120px; margin:10px 5px; line-height: 40px;height:40px; background:#00cfe2; color:#fff; font-size: 14px; text-align: center; display:inline-block; border-radius: 4px;}
+a.giveBtn:hover,a.giveBtn:active{ color:#fff;}
+.book_tit  span{ display:inline-block; font-size: 12px; color#eee; font-weight:normal;vertical-align: bottom;}
+.VipBookNews{ margin-top: 10px; margin-bottom: 10px;}
+.VipBookNews.NoBorder{ border:none; border-bottom:solid 1px #eee;}
+.VipBookNews p{ line-height: 25px; color:#333; font-size: 12px;}
+.VipBookNews p strong{ font-size: 14px; display:block; margin-top: 20px;}
+.VipBookNews p span{ margin-right: 20px; color:#999;}
+.VipBookNews p span:nth-last-child(1){margin-right: 0;}
+.colorRed{ color:#f00;margin-right: 15px; margin-top: 25px;display:inline-block;}
+.colorblue{ color:#eee;}
+.shareTxt{  margin:10px; border-top: solid 1px #eee; }
+.shareTxt p{ padding:10px; line-height: 40px; color:#00cfe2;font-size: 18px;text-align:center; }
+/*个人中心*/
+.MyPrize{ overflow:hidden;background:#fff; border:solid 1px #eee; width:100%;margin:10px auto; padding:5px; border-radius: 4px;}
+.MyPrize h3 {
+    font-size: 16px; line-height: 30px;
+}
+.MyPrize table{border:none; line-height: 25px; color:#666; font-size: 14px; margin:10px auto; width:100%;}
+.MyPrize table td{}
+.NextList{ border:solid 1px #eee; border-radius: 4px; padding:10px; background:#fff;}
+.NextList li{ margin:5px 0; overflow:hidden; padding:10px 0; border-bottom: solid 1px #eee;}
+.NextList li span{ vertical-align:middle; margin-right:8px; line-height: 60px; color:#666; display:inline-block;}
+.NextList li p,.Book_img p{ vertical-align:middle; display:inline-block; text-align:center; line-height: 25px; font-size: 13px; color:#999;;}
+.NextList li p img,.Book_img p img{ border:solid 2px #eee; width:60px; height:60px;}
+/*评价弹框*/
+ .goods_kuang{ padding:20px 20px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; border:solid 1px #ccc; color:#666; width:300px; position:absolute; left:50%; margin-left:-150px; background:#fff; z-index:99999; display:none;}
+.zhezhaoceng{ position:absolute; top:0; left:0; width:100%; height:100%; background:#000;opacity:0.5; filter:alpha(opacity=50);  z-index:9999; display:none;}
+.AdressBox{ overflow:hidden; text-align:center; vertical-align: middle;}
+.AdressBox,.faceBox{ padding:30px 20px; border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px; border:solid 1px #ccc; color:#666; width:300px; position:absolute; left:50%; margin-left:-150px; background:#fff; z-index:99999; display:none; }
+.AdressBox p{ text-align: left; font-size: 14px; color:#666; line-height: 30px;}
+.faceBox{ text-align:center;}
+.faceBox h3{ font-size: 16px;}
+.faceBox .BigBtn{ margin-right: 10px; margin-top: 25px;}
+.Close{ position:absolute; right:0px; top:0px; font-size: 30px; color:#eee; padding:0 5px;}
+.scoreBtn{ padding:0px 10px; border-radius: 4px; line-height: 25px; color:#fff; background:#e7a901; display:inline-block;}
+.hotBtn{border-radius: 4px; line-height:25px; padding:5px 20px; background:#66cdff; color:#fff; margin-left: 20px; margin-top: 10px; display:inline-block;}
+.num{float:right; color:#999;}
+.ShowNews li {
+    position: relative;
+    margin-bottom: 20px;
+    overflow:hidden;
+}
+.ShowNews li img {
+    float:left;
+    width: 76px;
+    left: 0;
+}
+.ShowNews .TxtDate {
+    padding-left: 90px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #666;
+}
+.ShowNews div {
+    margin-bottom: 6px;
+}
+.TxtDate a, .TxtDate span {
+    color: #ccc;
+    font-size: 12px;
+}
+.TxtDate a {
+    color: #337ab7;
+}
+.ShowNews div a {
+    display: block;
+}
+.ShowNews div a {
+    display: block;
+}
+.ShowNews .btn_more {
+    width: 200px;
+    margin: 0 auto;
+    background: #66cdff;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+    border-radius: 4px;
+}
+/*@media*/
+
+@media (min-width: 992px) {
+    .col-md-3 + .col-md-9 .mega-menu .dropdown-menu {
+        left: -243px;
+        width: 940px;
+    }
+}
+@media (max-width: 767px) {
+
+}
+@media (min-width: 767px) {
+ .Adrs p{ margin-left: 180px; line-height: 40px; width:500px;}
+
+}
+@media (max-width: 970px) {
+.logo a{ text-align:center; margin-top: 10px;}
+.JF p strong, .JF p span{ font-size: 13px; margin-right: 10px;}
+.JF p strong{ font-size: 14px;}
+.borderRaduis img{ width:80px;}
+b.mar_l30{ display:block; margin:0;}
+.nav{ border-bottom: solid 2px #00cfe2;}
+.book_bg .All_Book_img li{ width:50%;}
+}
+@media (max-width: 400px) {
+    #children{ height:180px;}
+}

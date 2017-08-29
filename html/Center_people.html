@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+<title>我的--个人中心</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css" />
+<link rel="stylesheet" href="../css/style.css" />
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<body class="bg_gray">
+<header>
+        <div class="container pos_rl">
+             <div class="row">
+                 <div class="col-md-2">
+                     <div class="logo">
+                        <a href="../index.html"><img src="../image/logo.png" alt="中国童书博览会" /></a>
+                     </div>
+                 </div>
+                 <div class="col-md-8">
+                    <div class="nav">
+                        <a href="http://book.798artplus.com/html">首页</a>
+                        <a href="http://book.798artplus.com/html/html/Books_Drift.html">漂流</a>
+                        <a href="../index.html">团队漂流</a>
+                        <a class="active" href="Center_people.html">我的</a>
+                    </div>
+                 </div>
+             </div>
+             <div class="English"><a href="javascript:;">English</a></div>
+        </div>
+</header>
+<div class="container main">
+    <div class="row Books_img_txt lineGray noneInput">
+        <div class="col-md-3 col-sm-3 col-xs-3 Book_img mar_b10">
+            <a href="javascript:;" class="borderRaduis">
+                <img id="userpic" src="http://wx.qlogo.cn/mmopen/gNyN5UYjX3DI3jko4gH7BULKBvz0jNUM5u5fULAbEVcy6nbvwLnibS2DcV4qAsHfDa3iaRU0l8ZAG6Mkh9u4AsNDHPEW4L4wo1/0" userid="1402">
+            </a>
+        </div>
+        <div id="peopleTxt" class="col-md-9 col-sm-9 col-xs-9 Important mar_b10">
+             <div class="col-md-12">
+                 <strong><input id="username" value="贡贺" disabled="true" type="text"></strong>
+                 <a href="javascript:;" class="fz12 fr updateBtn">修改</a>
+             </div>
+             <div class="col-md-12 inputBorder">
+                 <p>
+                     <span style="display:inline-block;">性别：</span>
+                     <a href="#" class="Sex" sex="2" select-sex="1">男</a>
+                     <a href="#" class="Sex" sex="2" select-sex="0">无</a>
+                     <a href="#" class="Sex active" sex="2" select-sex="2">女</a>
+                 </p>
+                  <span>
+                      手机：<input id="userphone" disabled="true" value="15010037251" type="number">
+                      <!--<b class='mar_l30'>积分：</b>-->
+                  </span>
+                  <p>
+                    <span>押金金额：<b>100</b><a href="javascript:;" class="BigBtn">申请退还</a></span>
+
+                  </p>
+                 <input class="saveBtn" value="保存" type="button">
+             </div>
+        </div>
+        <div class="JF">
+            <div class="col-md-12 Active_Tit">
+                 <h3>快递地址</h3>
+            </div>
+            <div class="col-md-8 col-sm-10 col-xs-10 adrs" >
+                  <p>
+                      <strong class="changeAdress">
+                         <select name="province" id='pro'></select>
+                         <select name="city" id="city"></select>
+                         <select name="area" id="area"></select>
+                     </strong>
+                     <input id="adress" type="text"  style="width:100%" value="北京市朝阳区酒仙桥路2号798艺术区友谊大厦3层" disabled="true"/>
+                  </p>
+                  <input class="saveTBtn"  type="button" value="保存" />
+            </div>
+            <div class="col-md-4 col-sm-2 col-xs-2">
+                  <a id="updateBtn2" href="javascript:;" class="fr">修改</a>
+            </div>
+            <div class="col-md-12 txtCenter clear">
+                 <a href="NextUser.html" class="giveBtn">下一票用户</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row All_Books">
+            <div class="col-md-12 All_Books_tit">
+                <h3>我参与的漂流</h3>
+                <a href="NextUser.html" class="select_addres">下一票用户</a>
+            </div>
+            <div id="Book_Drift" class="col-md-12 All_Book_img">
+
+                 <ul>
+                   <li>
+
+                      <a href="Driver_news.html?status=&fromApplyId=&bookImage=&bookName=&authorName=&bublisher=&des=" bookCode="">
+                          <img src="http://ftp.798artplus.com/yangyang/pic/24178226-1_w_1.jpg" >
+                          <span class="Sky">小猪</span>
+                      </a>
+                      <span>未支付</span>
+                  </li>
+                  <li>
+
+                      <a href="Driver_news.html?status=&fromApplyId=&bookImage=&bookName=&authorName=&bublisher=&des=" bookCode="">
+                          <img src="http://ftp.798artplus.com/yangyang/pic/24178226-1_w_1.jpg" >
+                          <span class="Sky">小猪</span>
+                      </a>
+                      <span>审批通过</span>
+                  </li>
+                 </ul>
+
+            </div>
+    </div>
+    <div class="row All_Books">
+            <div class="col-md-12 All_Books_tit">
+                <h3>我参与的团票</h3>
+            </div>
+            <div id="AllBook_Drift" class="col-md-12 All_Book_img">
+                <ul>
+                   <li>
+
+                      <a href="Driver_news.html?status=&fromApplyId=&bookImage=&bookName=&authorName=&bublisher=&des=" bookCode="">
+                          <img src="http://ftp.798artplus.com/yangyang/pic/24178226-1_w_1.jpg" >
+                          <span class="Sky">小猪</span>
+                      </a>
+                      <span>未支付</span>
+                  </li>
+                  <li>
+
+                      <a href="Driver_news.html?status=&fromApplyId=&bookImage=&bookName=&authorName=&bublisher=&des=" bookCode="">
+                          <img src="http://ftp.798artplus.com/yangyang/pic/24178226-1_w_1.jpg" >
+                          <span class="Sky">小猪</span>
+                      </a>
+                      <span>审批通过</span>
+                  </li>
+                 </ul>
+            </div>
+    </div>
+    <div class="MyPrize">
+        <h3>我的优惠券</h3>
+         <table>
+           <tr>
+             <th>平台</th>
+             <th>优惠券编码</th>
+             <th>有效期</th>
+             <th>操作</th>
+           </tr>
+           <tr>
+             <td>京东</td>
+             <td>JD123456</td>
+             <td></td>
+             <td><a href="javascript:;">复制</a></td>
+           </tr>
+         </table>
+    </div>
+    <!-- 漂流轨迹地图 -->
+    <div class="col-md-12" id="MAP">
+         <p class="mapTxt"></p>
+         <div id='l-map'></div>
+    </div>
+</div>
+<div class="footer">
+      <div class="container">
+           <div class="row">
+               <div class="col-md-9 col-sm-9">
+                   <p>© 2016-2017, 中国童书博览会  all rights reversed.京ICP备16033930号</p>
+               </div>
+               <div class="col-md-3 col-sm-3 w_img">
+                   <img src="../image/weixin.jpg" alt="微信扫描" />
+               </div>
+           </div>
+      </div>
+</div>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/template.js"></script>
+<script type="text/javascript" src="../js/PCASClass.js"></script>
+<!-- <script type="text/javascript" src="../js/public.js"></script> -->
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=B3f7707c25da5b29a6ff69618788a296"></script>
+<script type="text/javascript" src="../js/center_people.js"></script>
+<!-- <script id="DriftBook" type="text/html">
+      {{each rows as row i}}
+      {{if row.status=="2-2"}}
+       <a href="SetOut_Address.html?fromApplyId={{row.id}}" class="select_addres">下一票用户</a>
+      {{/if}}
+      {{/each}}
+    <ul>
+       {{each rows as row i}}
+          {{if row.status!="0"}}
+          <li style=" width:120px;">
+             {{if row.status!=="2-2"}}
+              <a href="Driver_news.html?status={{row.status}}&fromApplyId={{row.id}}&bookImage={{row.book.detail.images}}&bookName={{row.book.bookName}}&authorName={{row.book.detail.authorName}}&bublisher={{row.book.detail.publisher}}&des={{row.book.des}}" bookCode="{{row.bookCode}}">
+                  <img src="{{row.book.detail.images}}" alt="{{row.book.bookName}}">
+                  <span class="Sky">{{row.bookName}}</span>
+              </a>
+              {{else if row.status=="2-2"}}
+               <a href="SetOut_Address.html?fromApplyId={{row.id}}">
+                  <img src="{{row.book.detail.images}}" alt="{{row.book.bookName}}">
+                  <span class="Sky">{{row.bookName}}</span>
+             {{/if}}
+              </a>
+                 {{if row.status=='0'}}
+                 <span>未支付</span>
+                 {{else if row.status=='1'}}
+                 <span>已经支付 审核中</span>
+                 {{else if row.status=='2'}}
+                 <span>审批通过</span>
+                 {{else if row.status=='2-0'}}
+                 <span>阅读中</span>
+                 {{else if row.status=='2-1'}}
+                 <span>审批通过,未分配</span>
+                 {{else if row.status=='2-2'}}
+                 <span>（已分配）待寄出</span>
+                 {{else if row.status=='2-3'}}
+                 <span>已发送快递</span>
+                 {{else if row.status=='3'}}
+                 <span>退款成功</span>
+                 {{else}}
+                 <span>未申请</span>
+              {{/if}}
+          </li>
+          {{/if}}
+        {{/each}}
+    </ul>
+</script>
+<script id="peopleList" type="text/html">
+  {{each rows as row i}}
+  <div class="col-md-12">
+       <strong><input id='username' type="text" value="{{row.nickName}}" disabled="true"/></strong>
+       <a href="javascript:;" class="fz12 fr updateBtn">修改</a>
+   </div>
+   <div class="col-md-12 inputBorder">
+       <p>
+           <span>性别：</span>
+           <a href="#" class="Sex"sex="{{row.sex}}" select-sex="1">男</a>
+           <a href="#" class="Sex" sex="{{row.sex}}" select-sex="0">无</a>
+           <a href="#" class="Sex" sex="{{row.sex}}" select-sex="2">女</a>
+       </p>
+        <span>
+            手机：<input id="userphone" type="number"  disabled="true" value="{{row.phone}}"/>
+
+        </span>
+       <input class="saveBtn"  type="button" value="保存" />
+   </div>
+  {{/each}}
+</script> -->
+</body>
+</html>

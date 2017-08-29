@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+<title>团票详情页</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css" />
+<link rel="stylesheet" href="../css/style.css" />
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<body class="book_bg">
+   <header>
+        <div class="container pos_rl">
+             <div class="row">
+                 <div class="col-md-2">
+                     <div class="logo">
+                        <a href="../index.html"><img src="../image/logo.png" alt="中国童书博览会" /></a>
+                     </div>
+                 </div>
+                 <div class="col-md-8">
+                    <div class="nav">
+                        <a href="http://book.798artplus.com/html">首页</a>
+                        <a href="http://book.798artplus.com/html/html/Books_Drift.html">漂流</a>
+                        <a class="active" href="../index.html">团队漂流</a>
+                        <a href="Center_people.html">我的</a>
+                    </div>
+                 </div>
+             </div>
+             <div class="English"><a href="javascript:;">English</a></div>
+        </div>
+   </header>
+   <div class="container">
+       <div class="pageTxt">
+             <a href="../index.html">团票</a> > <span>书籍名称</span>
+       </div>
+       <!--团票数书详情-->
+       <div class="listBooks" id="list_books"></div>
+       <!-- 积分评论 -->
+       <!-- 书籍评论-->
+        <div class="row comment ShowNews">
+            <div class="col-md-12 Active_Tit">
+                <h3>书籍评论 <span>————  精华评论  ————</span></h3>
+            </div>
+            <div class="Iscroll">
+                <ul id="scorePeopleList">
+                    <li>
+                        <img src="http://wx.qlogo.cn/mmopen/gNyN5UYjX3DI3jko4gH7BULKBvz0jNUM5u5fULAbEVcy6nbvwLnibS2DcV4qAsHfDa3iaRU0l8ZAG6Mkh9u4AsNDHPEW4L4wo1/0" alt="贡贺">
+                        <div class="TxtDate min-ht">
+                            <p>好好</p>
+                            <span>于2017-06-30 16:24:37</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="http://wx.qlogo.cn/mmopen/gNyN5UYjX3DI3jko4gH7BULKBvz0jNUM5u5fULAbEVcy6nbvwLnibS2DcV4qAsHfDa3iaRU0l8ZAG6Mkh9u4AsNDHPEW4L4wo1/0" alt="贡贺">
+                        <div class="TxtDate min-ht">
+                            <p>好好</p>
+                            <span>于2017-06-30 16:24:37</span>
+                        </div>
+                    </li>
+                </ul>
+                <a href="javascript:;" class="btn_more">更多</a>
+            </div>
+
+        </div>
+        <!-- 本书所有团票 -->
+        <div class="books_list">
+            <h3 class="book_tit mar_t10">本书所有团漂 <span class="fr">11个团票</span></h3>
+            <div class="allPiaoList">
+                <ul>
+                     <li>
+                          <div class="col-md-3 col-sm-3 col-xs-3 Book_img">
+                              <a href="javascript:;">
+                                  <img src="http://798artoss.oss-cn-beijing.aliyuncs.com/image/20170504082746puu4.jpg" alt="童书大漂流">
+                              </a>
+                          </div>
+                          <div class="col-md-9 col-sm-9 col-xs-9 Important">
+                              <div class="row">
+                                   <div class="col-md-12">
+                                       <div class="col-md-8 col-sm-8 col-xs-8">
+                                           <strong>汤姆和杰瑞汤姆和杰瑞汤姆和杰瑞汤姆和杰瑞汤姆和杰瑞   第一团</strong>
+                                           <p>
+                                               <span>需要人数：15</span>
+                                               <span>剩余名额：<b>12</b></span>
+                                           </p>
+                                       </div>
+                                       <div class="col-md-4 col-sm-4 col-xs-4" style="text-align:right">
+                                           <a href="BuyOrder.html?bookId=&bookname=" class="BigBtn">我要申请</a>
+                                       </div>
+                                   </div>
+                              </div>
+                          </div>
+                     </li>
+                     <li>
+                          <div class="col-md-3 col-sm-3 col-xs-3 Book_img">
+                              <a href="javascript:;">
+                                  <img src="http://798artoss.oss-cn-beijing.aliyuncs.com/image/20170504082746puu4.jpg" alt="童书大漂流">
+                              </a>
+                          </div>
+                          <div class="col-md-9 col-sm-9 col-xs-9 Important">
+                              <div class="row">
+                                   <div class="col-md-12">
+                                       <div class="col-md-8 col-sm-8 col-xs-8">
+                                           <strong>汤姆和杰瑞汤姆和杰瑞汤姆和杰瑞汤姆和杰瑞汤姆和杰瑞   第一团</strong>
+                                           <p>
+                                               <span>需要人数：15</span>
+                                               <span>剩余名额：<b>12</b></span>
+                                           </p>
+                                       </div>
+                                       <div class="col-md-4 col-sm-4 col-xs-4" style="text-align:right">
+                                           <a href="javascript:;" class="BigBtn HuiBtn">该团已满</a>
+                                       </div>
+                                   </div>
+                              </div>
+                          </div>
+                     </li>
+                </ul>
+            </div>
+
+        </div>
+   </div>
+   <div class="footer">
+          <div class="container">
+               <div class="row">
+                   <div class="col-md-9 col-sm-9">
+                       <p>© 2016-2017, 中国童书博览会  all rights reversed.京ICP备16033930号</p>
+                   </div>
+                   <div class="col-md-3 col-sm-3 w_img">
+                       <img src="../image/weixin.jpg" alt="微信扫描" />
+                   </div>
+               </div>
+          </div>
+  </div>
+
+  <div class="goods_kuang">
+   <a href="javascript:;"class="Close"> × </a>
+   <div class="pjBox">
+
+       <span>给个评价吧：</span>
+       <span class="Start" id="Start">
+           <a href="javascript:;"></a>
+           <a href="javascript:;"></a>
+           <a href="javascript:;"></a>
+           <a href="javascript:;"></a>
+           <a href="javascript:;"></a>
+       </span>
+       <span id="rateword" class="pl"></span>
+       <input id="n_rating" value="" type="hidden">
+   </div>
+   <ul id="advtags" class="interest_form">
+        <li class="comment-label">
+          <span id="counter" class="num">350</span>简短附注:
+        </li>
+        <li>
+          <textarea name="comment" class="comment" id="comment" maxlength="350"></textarea>
+        </li>
+    </ul>
+    <p><a href="javascript:;" class="hotBtn">发布</a></p>
+</div>
+<div class="zhezhaoceng"></div>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/template.js"></script>
+<script type="text/javascript" src="../js/public.js"></script>
+<script type="text/javascript" src="../js/bookshowing.js"></script>
+<!--团票数书详情-->
+<script id="allBookData" type="text/html">
+	<h3>{{rows.title}}</h3>
+           <ul>
+		   {{each rows.booksDetail as booklist i}}
+               <li>
+                   <div class="col-md-4 col-sm-4 col-xs-4">
+                       <img src="{{booklist.images}}" alt="" />
+                   </div>
+                   <div class="col-md-8 col-sm-8 col-xs-8">
+                       <p>
+                           <span>书名：{{booklist.name}} <a href="javascript:;" class="scoreBtn fr" id="{{booklist.id}}">评价</a></span>
+                           <span>适读年龄：0-2岁</span>
+                           <span>专题：好书榜</span>
+                           <span>作者：{{booklist.authorName}}</span>
+                           <span>出版社：{{booklist.publisher}}</span>
+                           <span>内容简介：{{booklist.subName}}</span>
+                       </p>
+                   </div>
+               </li>
+			{{/each}}
+           </ul>
+           <p class="txtCenter">
+               <strong>需支付押金：{{rows.yaJin}}元</strong>
+               <strong>{{rows.inCount}}套书可申请</strong>
+           </p>
+           <p class="txtCenter"><a href="BuyOrder.html?Tuan=yes&bookId={{rows.id}}&bookname={{rows.title}}&yajin={{rows.yaJin}}" class="giveBtn">申请成为团长</a></p>
+</script>
+</body>
+<script>
+$(document).ready(function(){
+    //弹框
+    function ScoreBlock() {
+        $(".scoreBtn").click(function() {
+            var top = ($(window).height() - $(".goods_kuang").height()) / 2 + $(window).scrollTop() + "px";
+            $(".goods_kuang").css({ "display": 'block', "top": top });
+            $(".zhezhaoceng").css({ "display": "block", "height": $(document).height() });
+            scoreBookId = $(this).attr("id");
+
+            $(".hotBtn").click(function() {
+                if ($("#n_rating").val().length > 0 && $("#comment").val().length > 0) {
+
+                    addScore();
+                } else {
+                    alert("评分不能为空！");
+                }
+            });
+        });
+    }
+    //添加评分
+    function addScore() {
+        var token = getCookie("token");
+        var userId = getCookie("userId");
+        var startNum = $("#n_rating").val();
+
+        $.ajax({
+            url: 'http://book.798artplus.com/api/v1/scorebook/104',
+            type: 'get',
+            dataType: 'json',
+            data: {
+                userId: userId,
+                scoreBookId: scoreBookId,
+                score: startNum, //评分
+                reason: $("#comment").val(),
+                token: token,
+                start: 0,
+                fetchsize: 10
+            },
+            success: function(data) {
+                if (data.rows) {
+                    alert("成功添加评论");
+                    $(".Start a").removeClass('on');
+                    $(".pl").text("");
+                    $("#n_rating").val("");
+                    $("#comment").val("");
+                    $(".goods_kuang").css("display", "none");
+                    $(".zhezhaoceng").css("display", "none");
+                } else {
+                    alert("评价失败！");
+                }
+            }
+        });
+    }
+
+    ScoreBlock();
+
+   //关闭弹框
+   $(".Close").click(function(){
+        $(".goods_kuang").css("display","none");
+        $(".zhezhaoceng").css("display","none");
+    });
+
+      //评价星星
+      var isSelect = false;
+      var num = document.getElementById('n_rating');
+      var scoreTxt= document.getElementById("rateword");
+      var Box = document.getElementById("Start");
+      var AStart = Box.children;
+      for(var i=0;i<AStart.length;i++){
+          AStart[i].index=i;
+          AStart[i].onmouseover=function(){
+              isSelect=false;
+              addClass(this.index);
+          };
+
+           AStart[i].onmouseout=function(){
+                if(!isSelect){
+                    for(var i=0;i<AStart.length;i++){
+                        AStart[i].className="";
+                    }
+                     scoreTxt.innerHTML="";
+                }
+
+                if(num.value.length>0){
+                var allnum = parseInt(num.value-1);   //选中的第几个
+                     isSelect=true;
+
+                     for(var j=0;j<=allnum;j++){
+                        AStart[j].className="on";
+                     }
+                     if(allnum==0){
+                        scoreTxt.innerHTML="很差";
+                     }else if(allnum==1){
+                        scoreTxt.innerHTML="较差";
+                     }else if(allnum==2){
+                        scoreTxt.innerHTML="还行";
+                     }else if(allnum==3){
+                        scoreTxt.innerHTML="推荐";
+                     }else if(allnum==4){
+                        scoreTxt.innerHTML="力荐";
+                     }
+              }
+           };
+
+           AStart[i].onclick=function(){
+              isSelect=true;
+              addClass(this.index);
+               num.value=parseInt(this.index+1);
+           }
+      };
+
+      function addClass(obj){
+        for(var j=0;j<AStart.length;j++){
+             if(obj>=j){
+                 AStart[j].className="on";
+             }else{
+                 AStart[j].className="";
+             }
+             switch(obj){
+                case 0:
+                    scoreTxt.innerHTML="很差";
+                    break;
+                case 1:
+                    scoreTxt.innerHTML="较差";
+                    break;
+                case 2:
+                    scoreTxt.innerHTML="还行";
+                    break;
+                case 3:
+                    scoreTxt.innerHTML="推荐";
+                    break;
+                case 4:
+                    scoreTxt.innerHTML="力荐";
+                    break;
+             }
+         }
+      };
+
+      //评论字数
+      var textArea = $("#comment");
+      var word = $("#counter");
+      statInputNum(textArea,word);
+      function statInputNum(textArea,numItem) {
+        var max = numItem.text(),
+                curLength;
+        textArea[0].setAttribute("maxlength", max);
+        curLength = textArea.val().length;
+        numItem.text(max - curLength);
+        textArea.on('input propertychange', function () {
+            var _value = $(this).val().replace(/\n/gi,"");
+            numItem.text(max - _value.length);
+        });
+      }
+
+});
+</script>
+</html>

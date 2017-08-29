@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta http-equiv="expires" content="Wed, 26 Feb 1997 08:21:57 GMT">
+<title>我的--个人中心--下一票用户</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css" />
+<link rel="stylesheet" href="../css/style.css" />
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+</head>
+<body class="bg_gray">
+<header>
+        <div class="container pos_rl">
+             <div class="row">
+                 <div class="col-md-2">
+                     <div class="logo">
+                        <a href="../index.html"><img src="../image/logo.png" alt="中国童书博览会" /></a>
+                     </div>
+                 </div>
+                 <div class="col-md-8">
+                    <div class="nav">
+                        <a href="http://book.798artplus.com/html">首页</a>
+                        <a href="http://book.798artplus.com/html/html/Books_Drift.html">漂流</a>
+                        <a href="../index.html">团队漂流</a>
+                        <a class="active" href="Center_people.html">我的</a>
+                    </div>
+                 </div>
+             </div>
+             <div class="English"><a href="javascript:;">English</a></div>
+        </div>
+</header>
+<div class="container main">
+    <div class="row Books_img_txt lineGray noneInput">
+        <div class="col-md-3 col-sm-3 col-xs-3 Book_img mar_b10">
+            <a href="javascript:;" class="borderRaduis">
+                <img id="userpic" src="../image/b3.jpg" />
+            </a>
+        </div>
+        <div id="peopleTxt" class="col-md-9 col-sm-9 col-xs-9 Important mar_b10">
+               <div class="col-md-12">
+                   <strong><input id="username" value="贡贺" disabled="true" type="text"></strong>
+                   <a href="javascript:;" class="fz12 fr updateBtn">修改</a>
+               </div>
+               <div class="col-md-12 inputBorder">
+                   <p>
+                       <span style="display:inline-block;">性别：</span>
+                       <a href="#" class="Sex" sex="2" select-sex="1">男</a>
+                       <a href="#" class="Sex" sex="2" select-sex="0">无</a>
+                       <a href="#" class="Sex active" sex="2" select-sex="2">女</a>
+                   </p>
+                    <span>
+                        手机：<input id="userphone" disabled="true" value="15010037251" type="number">
+                        <!--<b class='mar_l30'>积分：</b>-->
+                    </span>
+                   <input class="saveBtn" value="保存" type="button">
+               </div>
+        </div>
+        <div class="JF">
+            <div class="col-md-12 Active_Tit">
+                 <h3>快递地址</h3>
+            </div>
+            <div class="col-md-8 col-sm-10 col-xs-10 adrs" >
+                  <p>
+                      <strong class="changeAdress">
+                         <select name="province" id='pro'></select>
+                         <select name="city" id="city"></select>
+                         <select name="area" id="area"></select>
+                     </strong>
+                     <input id="adress" type="text"  style="width:100%" value="北京市朝阳区酒仙桥路2号798艺术区友谊大厦3层" disabled="true"/>
+                  </p>
+                  <input class="saveTBtn"  type="button" value="保存" />
+            </div>
+            <div class="col-md-4 col-sm-2 col-xs-2">
+                  <a id="updateBtn2" href="javascript:;" class="fr">修改</a>
+            </div>
+        </div>
+    </div>
+    <!-- 下一票用户地址 -->
+    <div class="NextList Active_Tit">
+                <h3>下一票用户</h3>
+                <ul>
+                    <li>
+                        <div class="col-md-5 col-sm-5 col-xs-5">
+                          <span>漂流</span><p><img src="../image/b2.jpg" alt="" /><br />Crazy</p>
+                        </div>
+                        <div class="col-md-7 col-sm-7 col-xs-7">
+                              <a href="javascript:;" class="BigBtn AdressBtn">查看快递地址</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-5 col-sm-5 col-xs-5">
+                          <span>团票</span><p><img src="../image/b2.jpg" alt="" /><br />Crazy</p>
+                        </div>
+                        <div class="col-md-7 col-sm-7 col-xs-7">
+                              <a href="javascript:;" class="BigBtn AdressBtn">查看快递地址</a>
+                              <a href="javascript:;" class="BigBtn faceBtn">面对面传递</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    <div class="col-md-12" id="MAP">
+         <p class="mapTxt"></p>
+         <div id='l-map'></div>
+    </div>
+</div>
+<div class="footer">
+      <div class="container">
+           <div class="row">
+               <div class="col-md-9 col-sm-9">
+                   <p>© 2016-2017, 中国童书博览会  all rights reversed.京ICP备16033930号</p>
+               </div>
+               <div class="col-md-3 col-sm-3 w_img">
+                   <img src="../image/weixin.jpg" alt="微信扫描" />
+               </div>
+           </div>
+      </div>
+</div>
+<div class="zhezhaoceng"></div>
+<div class="AdressBox">
+    <a href="javascript:;" class="Close"> × </a>
+    <p>地   址 ：  北京市朝阳区酒仙桥路2号798艺术区友谊大厦3层 </p>
+    <p>收件人 ：毕伟</p>
+    <p>邮   编：100075</p>
+    <p>手   机：18601020304</p><br />
+    <a href="SetOut_Address.html">填写快递单号</a>
+</div>
+<div class="faceBox">
+     <a href="javascript:;" class="Close"> × </a>
+     <h3>面对面穿</h3>
+     <p><a href="javascript:;" class="BigBtn">送出书籍</a><a href="javascript:;" class="BigBtn">收到书籍</a></p>
+</div>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/template.js"></script>
+<script type="text/javascript" src="../js/PCASClass.js"></script>
+<!-- <script type="text/javascript" src="../js/public.js"></script> -->
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=B3f7707c25da5b29a6ff69618788a296"></script>
+<!-- <script type="text/javascript" src="../js/center_people.js"></script> -->
+<!-- <script id="peopleList" type="text/html">
+  {{each rows as row i}}
+  <div class="col-md-12">
+       <strong><input id='username' type="text" value="{{row.nickName}}" disabled="true"/></strong>
+       <a href="javascript:;" class="fz12 fr updateBtn">修改</a>
+   </div>
+   <div class="col-md-12 inputBorder">
+       <p>
+           <span>性别：</span>
+           <a href="#" class="Sex"sex="{{row.sex}}" select-sex="1">男</a>
+           <a href="#" class="Sex" sex="{{row.sex}}" select-sex="0">无</a>
+           <a href="#" class="Sex" sex="{{row.sex}}" select-sex="2">女</a>
+       </p>
+        <span>
+            手机：<input id="userphone" type="number"  disabled="true" value="{{row.phone}}"/>
+            <!--<b class='mar_l30'>积分：{{row.score}}</b>-->
+        </span>
+       <input class="saveBtn"  type="button" value="保存" />
+   </div>
+  {{/each}}
+</script> -->
+<script type="text/javascript">
+
+  $(document).ready(function(){
+     //弹框定位
+    function positionBox(obj){
+            var top = ($(window).height() - obj.height()) / 2 + $(window).scrollTop() + "px";
+              obj.css({
+                  "display": 'block',
+                  "top": top
+              });
+              $(".zhezhaoceng").css({
+                  "display": "block",
+                  "height": $(document).height()
+              });
+    }
+      //地址弹框
+      $(".AdressBtn").click(function() {
+          //弹框定位
+          positionBox($(".AdressBox"));
+       });
+      //面对面传递
+      $('.faceBtn').click(function(){
+          positionBox($(".faceBox"));
+      });
+
+      $(".Close").click(function() {
+            $(".AdressBox").css("display", "none");
+            $(".zhezhaoceng").css("display", 'none');
+            $(".faceBox").css('display', 'none');
+
+      });
+   })
+</script>
+</body>
+</html>
